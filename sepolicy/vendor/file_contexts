@@ -11,7 +11,7 @@
 /sys/devices/platform/soc/[a-f0-9]+.qcom,mdss_mdp/drm/card([0-3])+/card([0-3])+-DSI-1/panel_info u:object_r:vendor_sysfs_graphics:s0
 
 # IR
-/dev/spidev0.1                                                                                    u:object_r:spidev_device:s0
+/dev/spidev[0-9]\.1                                                     u:object_r:spidev_device:s0
 
 # FP Devices
 /dev/goodix_fp                                                                                    u:object_r:vendor_fingerprint_device:s0
