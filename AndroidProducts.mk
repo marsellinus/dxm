@@ -1,13 +1,7 @@
-#
-# Copyright (C) 2021 The PixelExperience Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mojito.mk
+    $(LOCAL_DIR)/cafex_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mojito-user \
-    lineage_mojito-userdebug \
-    lineage_mojito-eng
+    cafex_mojito-user \
+    cafex_mojito-userdebug \
+    cafex_mojito-eng
