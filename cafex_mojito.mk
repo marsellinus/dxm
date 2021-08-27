@@ -6,7 +6,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
 # Inherit some common CAF-Extended stuff
-TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 $(call inherit-product, vendor/extended/common.mk)
