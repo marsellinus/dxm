@@ -226,7 +226,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.qti
+    android.hardware.lights-service.qti
 
 # Media
 PRODUCT_PACKAGES += \
